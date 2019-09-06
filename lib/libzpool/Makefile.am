@@ -86,6 +86,7 @@ KERNEL_C = \
 	metaslab.c \
 	mmp.c \
 	multilist.c \
+	nullc.c \
 	pathname.c \
 	range_tree.c \
 	refcount.c \

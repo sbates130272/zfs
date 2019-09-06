@@ -62,7 +62,9 @@ zio_compress_info_t zio_compress_table[ZIO_COMPRESS_FUNCTIONS] = {
 	{"gzip-8",		8,	gzip_compress,	gzip_decompress},
 	{"gzip-9",		9,	gzip_compress,	gzip_decompress},
 	{"zle",			64,	zle_compress,	zle_decompress},
-	{"lz4",			0,	lz4_compress_zfs, lz4_decompress_zfs}
+	{"lz4",			0,	lz4_compress_zfs, lz4_decompress_zfs},
+	{"nullcp",		0,	nullcp_compress, nullcp_decompress},
+	{"null",		0,	null_compress, null_decompress}
 };
 
 enum zio_compress
